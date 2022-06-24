@@ -1,0 +1,109 @@
+.action {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: #FFAEAE;
+    color: red;
+}
+.romance {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: rgb(255, 229, 244);
+    color: rgb( 204, 0, 120);
+}
+.harem {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: rgb(232, 226, 247);
+    color: rgb( 114, 42, 197);
+}
+.sliceoflife {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: rgb(199, 245, 235);
+    color: rgb( 14, 129, 97);
+}
+.schoollife {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: rgb(229, 240, 255);
+    color: rgb( 0, 82, 201);
+}
+.comedy {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: rgb( 255, 255, 204);
+    color: rgb( 255, 225, 81);
+}
+.drama {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: #CACAFF;
+    color: #4545FF;
+}
+.seinen {
+    font-family: Comic Sans MS;
+    font-size: 7px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: #FFCBE6;
+    color: #DA1EA5;
+}
+/*description style*/
+.author {
+    font-size: 10px;
+    font-weight: 900;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #CFCFCF;
+    color: #121212;
+}
+.status {
+    font-size: 10px;
+    font-weight: 900;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #F0F0F0;
+    color: #121212;
+}

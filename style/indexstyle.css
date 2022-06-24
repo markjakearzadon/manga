@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    font-family: Sans-Serif;
+}
+.navtop {
+    background-image: linear-gradient(90deg, rgb(247, 192, 236, 1), rgb(167, 189, 234, 1));
+    /*
+    #F7C0EC, #A7BDEA
+    */
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 1px 3px gray;
+    /*box-shadow: rgb(0, 0, 0, 0.075) 0 1px;0.075*/
+}
+.navtext {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline;
+    margin: 0 auto;
+    float: left;
+}
+.navsvg {
+    width: 23px;
+    display: block;
+}
+.navimg {
+    width: 30px;
+    border-radius: 50%;
+    margin: 17px;
+}
+#navlink {
+    padding: 20px;
+}
+
+
+.dropdown {
+    width: 100%;
+    height: 0;
+    top: 0;
+    position: fixed;
+    background-image: linear-gradient(90deg, rgb(247, 192, 236, 1), rgb(167, 189, 234, 1));
+    overflow-y: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+.dcontent {
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+}
+.dropmenu {
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.close {
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    float: right;
+}
+
+
+.main {
+    width: 100vw;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(135deg, #04619F, #000000);
+}
+.mangohaha {
+    background-color: white;
+    border: 0.005em solid white;
+    border-radius: 10px;
+    display: block;
+    width: 80%;/*85*/
+    margin: 10px auto;
+    padding-bottom: 7px;
+    overflow: hidden;
+    transition: width, border, 1s ease;
+}
+.mangohaha:hover {
+    width: 85%;
+    border: 2px solid cyan;
+}
+.mangaimg {
+    width: 100%;
+    display: inline-block;
+    border-radius: 7px 7px 7px 7px;
+    border-bottom: 0.0075em solid black;
+}
+.title {
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Sans-Serif;
+    font-style: bold;
+    display: block;
+    padding: 7px 4px;
+    text-align: left;
+    color: red;
+}
+.tlink {
+    text-decoration: none;
+}
+.pgenre {
+    font-family: Sans-Serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 7px 3px;
+    display: inline;
+}
+.genrecontainer {
+    display: block;
+    padding: 0 5px;
+}
+hr {
+    width: 90%;
+    height: 0.0075em;
+    margin: 0 auto;
+    border: hidden;
+    background: black;
+}
