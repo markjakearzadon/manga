@@ -9,5 +9,5 @@ function closebtn() {
     
 }
 function onl() {
-    window.alert("this site is not fully develop \n -mjk");
+    window.alert("1 \n -mjk");
 }
