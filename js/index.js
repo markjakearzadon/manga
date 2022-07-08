@@ -9,5 +9,5 @@ function closebtn() {
     
 }
 function onl() {
-    window.alert("1 \n -mjk");
+    window.alert("hiya! \n -ji nx");
 }
